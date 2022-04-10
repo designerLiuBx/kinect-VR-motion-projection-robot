@@ -1,0 +1,2 @@
+communication_node:learning_communication:video_stream_opencv
+-DCATKIN_DEVEL_PREFIX=/home/liubaixu/workspace/prj/ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/liubaixu/workspace/prj/ros/catkin_ws/install -G Unix Makefiles

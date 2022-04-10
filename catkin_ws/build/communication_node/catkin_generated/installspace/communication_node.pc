@@ -1,0 +1,8 @@
+prefix=/home/liubaixu/workspace/prj/ros/catkin_ws/install
+
+Name: communication_node
+Description: Description of communication_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
