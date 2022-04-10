@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\FWLIB\inc -I ..\liu_general\INCLUDE -I ..\liu_general\INIT -I ..\liu_drivers\OLED -I ..\liu_drivers\ADC -I ..\liu_drivers\I2C -I ..\liu_drivers -I ..\liu_general
+-I.\RTE\_Template
+-I"C:\Program Files (project)\MDK 5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"
+-I"C:\Program Files (project)\MDK 5\ARM\CMSIS\Include"
+-D__UVISION_VERSION="525" -DSTM32F429_439xx -DSTM32F429_439xx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"
+-o ..\obj\gen_led.o --omf_browse ..\obj\gen_led.crf --depend ..\obj\gen_led.d "..\liu_drivers\LED\Gen_led.c"
